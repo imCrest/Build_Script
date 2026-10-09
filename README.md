@@ -10,7 +10,7 @@ screen -S Infi
 
 ```text
 
-curl -sL https://raw.githubusercontent.com/imCrest/build_scripts/refs/heads/A-17/aws-infinity.sh -o setup.sh && chmod +x setup.sh && ./setup.sh && source ~/.bashrc
+curl -sL https://raw.githubusercontent.com/imCrest/Build_Script/refs/heads/A-17/aws-infinity.sh -o setup.sh && chmod +x setup.sh && ./setup.sh && source ~/.bashrc
 ```
 
 ```text
