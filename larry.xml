@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github-imcrest" fetch="https://github.com" />
+
+  <!-- Device Trees -->
+  <project name="imCrest/android_device_oneplus-larry" path="device/oneplus/larry" remote="github-imcrest" revision="lineage-24.0" />
+  <project name="imCrest/android_device_oneplus_sm6375-common" path="device/oneplus/sm6375-common" remote="github-imcrest" revision="lineage-24.0" />
+
+  <!-- Vendor Trees -->
+  <project name="imCrest/proprietary_vendor_oneplus_larry" path="vendor/oneplus/larry" remote="github-imcrest" revision="lineage-24.0" />
+  <project name="imCrest/proprietary_vendor_oneplus_sm6375-common" path="vendor/oneplus/sm6375-common" remote="github-imcrest" revision="lineage-24.0" />
+
+  <!-- Kernel Source -->
+  <project name="imCrest/android_kernel_oneplus_sm6375" path="kernel/oneplus/sm6375" remote="github-imcrest" revision="lineage-24.0" />
+
+  <!-- Hardware Oplus & Dolby -->
+  <project name="imCrest/android_hardware_oplus" path="hardware/oplus" remote="github-imcrest" revision="lineage-24.0" />
+  <project name="imCrest/hardware_dolby" path="hardware/dolby" remote="github-imcrest" revision="16.2" />
+</manifest>
