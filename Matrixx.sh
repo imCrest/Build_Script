@@ -13,19 +13,19 @@ repo init -u https://github.com/ProjectMatrixx/android.git -b 16.0 --git-lfs && 
 /opt/crave/resync.sh && \
 
 # --- Clone Device Tree ---
-git clone https://github.com/imCrest/android_device_oneplus_larry -b matrixx device/oneplus/larry && \
+git clone https://github.com/OGYO-Tree/android_device_oneplus-larry -b matrixx device/oneplus/larry && \
 
 # --- Clone Common Device Tree ---
-git clone https://github.com/imCrest/android_device_oneplus_sm6375-common -b lineage-23.0 device/oneplus/sm6375-common && \
+git clone https://github.com/OGYO-Tree/android_device_oneplus_sm6375-common -b lineage-23.0 device/oneplus/sm6375-common && \
 
 # --- Clone Vendor Tree ---
-git clone https://github.com/imCrest/proprietary_vendor_oneplus_larry -b lineage-23.0 vendor/oneplus/larry && \
+git clone https://github.com/OGYO-Tree/proprietary_vendor_oneplus_larry -b lineage-23.0 vendor/oneplus/larry && \
 
 # --- Clone Common Vendor Tree ---
-git clone https://github.com/imCrest/proprietary_vendor_oneplus_sm6375-common -b lineage-23.0 vendor/oneplus/sm6375-common && \
+git clone https://github.com/OGYO-Tree/proprietary_vendor_oneplus_sm6375-common -b lineage-23.0 vendor/oneplus/sm6375-common && \
 
 # --- Clone Kernel Tree ---
-git clone https://github.com/imCrest/android_kernel_oneplus_sm6375 -b lineage-23.0 kernel/oneplus/sm6375 && \
+git clone https://github.com/OGYO-Tree/android_kernel_oneplus_sm6375 -b lineage-23.0 kernel/oneplus/sm6375 && \
 
 # --- Clone Hardware Tree ---
 git clone https://github.com/LineageOS/android_hardware_oplus -b lineage-23.0 hardware/oplus && \
